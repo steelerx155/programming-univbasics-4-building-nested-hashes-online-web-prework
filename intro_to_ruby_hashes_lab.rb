@@ -22,9 +22,7 @@ end
 
 
 def monopoly_with_third_tier
-  monopoly_with_third_tier = {
-    	monopoly = {
-    :railroads => {
+ :railroads => {
       :pieces => 4, 
       :names =>{
         :reading_railroad => {}, 
@@ -39,8 +37,9 @@ def monopoly_with_third_tier
       four_pieces_owned: 200
     }
   }
-    	}
-	end
+
+  }
+end	
   # When you start writing the implementation for this method, copy the Hash
   # you built in the previous method. Run the tests. They will fail, but
   # they'll guide you in how to modify what you just did to have more
